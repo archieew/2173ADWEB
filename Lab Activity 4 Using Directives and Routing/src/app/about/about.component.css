@@ -1,0 +1,44 @@
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.card-style1 {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.bg-secondary {
+    background-color: #6c757d;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-primary {
+    color: #007bff;
+}
+/* Add styles for other elements based on their classes */
+
+/* Example: Style for the About Me section */
+.section-title {
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+}
