@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1800px;
+    margin: 20px auto;
+  }
+
+  .flashcard {
+    width: 450px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #ffcc80, #ff7043);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .flashcard:hover {
+    transform: scale(1.05);
+  }
+
+  .content {
+    padding: 30px;
+    box-sizing: border-box;
+    color: #fff;
+    overflow-y: auto;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    border-bottom: 2px solid #fff;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    word-wrap: break-word;
+  }
+
+  pre {
+    font-size: 14px;
+    margin: 15px 0;
+    white-space: pre-wrap;
+  }
